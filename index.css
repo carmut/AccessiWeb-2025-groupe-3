@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+.description{
+    text-align: justify;
+    max-width: 800px;
+    padding-left: 6%;
+    padding-bottom: 150px;
+}
+
+.separation{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+h2{
+    padding-left: 3%;
+}
+
+.details{
+    padding-left: 6%;
+    max-width: 500px;
+    padding-bottom: 50px;
+    text-align: justify;
+}

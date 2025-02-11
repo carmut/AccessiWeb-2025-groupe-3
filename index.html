@@ -3,28 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="index.css">
     <title>Page d'inscription - AccessiWeb 2025</title>
 </head>
 <body>
 
     <h1> Page d'inscription - AccessiWeb 2025 : Un Web pour Tous </h1>
 
-    <p> Nous somme l'association web inclusif, notre objectif est de sensibiliser a l'importance de l'accessibilitée numérique. <br>
+    <hr class="separation" >
+
+    <p class="description"> Nous somme l'association web inclusif, notre objectif est de sensibiliser a l'importance de l'accessibilitée numérique. <br>
     c'est dans ce but que nous organisons tout les ans une conférence sur l'accessibilitée qui ce déroulera cette année le 05 avril 2025 au Palais des Congrès à Paris de 9h à 17h.
     Nous y ferons aussi des ateliers et rencontres sur le thème de l'accessibilité numérique.  </p>
 
+        <h2> inscription </h2>
+        <p class="details">
+            si vous shouaiter participer a la conférence, merci de vous inscrire en remplissant le formulaire ci-dessous.
+        </p>
+
     <form action="inscription.php" method="post">
-        <label for="nom">Nom :</label>
+        <label for="nom">Nom* :</label>
         <input type="text" id="nom" name="nom" required>
         <br>
-        <label for="prenom">Prénom :</label>
+        <label for="prenom">Prénom* :</label>
         <input type="text" id="prenom" name="prenom" required>
         <br>
-        <label for="email">Email :</label>
+        <label for="email">Email* :</label>
         <input type="email" id="email" name="email" required>
         <br>
         <input type="submit" value="S'inscrire">
-        </form>
+    </form>
 
 </body>
 </html>
