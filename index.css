@@ -38,7 +38,6 @@ nav a {
     align-items: center;
     justify-content: center;
     width: max-content;
-    padding: 50px 0px;
 }
 
 input {
@@ -56,24 +55,11 @@ h1{
 
 .description{
     text-align: justify;
-    max-width: 800px;
-    padding-left: 6%;
-    padding-bottom: 150px;
-}
-
-.separation{
-    margin-top: 50px;
-    margin-bottom: 25px;
-}
-
-h2{
-    padding-left: 3%;
+    max-width: 600px;
 }
 
 .details{
-    padding-left: 6%;
     max-width: 500px;
-    padding-bottom: 50px;
     text-align: justify;
 }
 
