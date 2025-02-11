@@ -8,13 +8,37 @@ body {
     align-items: center;
 }
 
+header {
+    background-color: #ccc;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 50px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    column-gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
 #form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
     width: max-content;
+    padding: 50px 0px;
 }
 
 input {
@@ -24,6 +48,7 @@ input {
     border-radius: 5px;
     width: 300px;
     box-sizing: border-box;
+}
 
 h1{
     text-align: center;
@@ -50,4 +75,21 @@ h2{
     max-width: 500px;
     padding-bottom: 50px;
     text-align: justify;
+}
+
+footer {
+    background-color: #ccc;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0px;
+    column-gap: 40px;
 }

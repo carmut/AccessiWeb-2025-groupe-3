@@ -9,18 +9,30 @@
 </head>
 <body>
 
-    <h1> Page d'inscription - AccessiWeb 2025 : Un Web pour Tous </h1>
+    <header>
+        AccessiWeb
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="#">A propos</a>
+            <a href="#">Inscription</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
-    <p class="description"> Nous somme l'association web inclusif, notre objectif est de sensibiliser a l'importance de l'accessibilitée numérique. <br>
-    c'est dans ce but que nous organisons tout les ans une conférence sur l'accessibilitée qui ce déroulera cette année le 05 avril 2025 au Palais des Congrès à Paris de 9h à 17h.
-    Nous y ferons aussi des ateliers et rencontres sur le thème de l'accessibilité numérique.  </p>
+    <h1>Page d'inscription - AccessiWeb 2025 : Un Web pour Tous</h1>
 
-        <h2> inscription </h2>
-        <p class="details">
-            si vous shouaiter participer a la conférence, merci de vous inscrire en remplissant le formulaire ci-dessous.
-        </p>
+    <p class="description"> 
+        Nous somme l'association web inclusif, notre objectif est de sensibiliser a l'importance de l'accessibilitée numérique. <br>
+        C'est dans ce but que nous organisons tout les ans une conférence sur l'accessibilitée qui ce déroulera cette année le 05 avril 2025 au Palais des Congrès à Paris de 9h à 17h.
+        Nous y ferons aussi des ateliers et rencontres sur le thème de l'accessibilité numérique.  
+    </p>
 
-    <form id="form" action="inscription.php" method="post">
+    <h2>Inscription</h2>
+    <p class="details">
+        Si vous shouaiter participer a la conférence, merci de vous inscrire en remplissant le formulaire ci-dessous.
+    </p>
+
+    <form id="form" action="" method="GET">
         <label for="nom">Nom* :</label>
         <input type="text" id="nom" name="nom" required>
         <br>
@@ -30,12 +42,17 @@
         <label for="email">Email* :</label>
         <input type="email" id="email" name="email" required>
         <br>
+        <div id="error"></div>
+        <div id="succes"></div>
         <input type="submit" value="S'inscrire">
     </form>
 
     <footer>
-        <p>Association AccessiWeb 2025 - 25 rue de la Paix - 75000 Paris</p>
-        <p>Nous</p>
+        <div class="contact">
+            <p>Association AccessiWeb 2025<br>25 rue de la Paix<br>75000 Paris</p>
+            <p>Nous contactez : 01 23 45 67 89</p>
+        </div>
+        
         <p>Tout droit réservé - 2025</p> 
     </footer>
 
