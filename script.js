@@ -9,6 +9,7 @@ let succes = document.querySelector('#succes');
 form.addEventListener('submit', function(event) {
     event.preventDefault();
     error.innerHTML = '';
+    succes.innerHTML = '';
 
 
     if (nom.value === '') {
@@ -16,10 +17,21 @@ form.addEventListener('submit', function(event) {
         p.innerText = 'Veuillez renseigner votre nom';
         error.appendChild(p);
     }
+    
+    if (nom.value.length < 3) {
+        let p = document.createElement('p');
+        p.innerText = 'Votre nom est trop court';
+        error.appendChild(p);
+    }
 
     if (prenom.value === '') {
         let p = document.createElement('p');
         p.innerText = 'Veuillez renseigner votre prénom';
+        error.appendChild(p);
+    }
+    if (prenom.value.length < 3) {
+        let p = document.createElement('p');
+        p.innerText = 'Votre nom est trop court';
         error.appendChild(p);
     }
 
@@ -33,8 +45,7 @@ form.addEventListener('submit', function(event) {
         let p = document.createElement('p');
         p.innerText = 'Votre formulaire a bien été envoyé';
         succes.appendChild(p);
-        form.submit();
+        console.log('Votre formulaire a bien été envoyé');
     }
-
 
 });
