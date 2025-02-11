@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'inscription - AccessiWeb 2025</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
@@ -11,19 +12,25 @@
 
     <p> Nous somme l'association web inclusif, notre objectif est de sensibiliser a l'importance de l'accessibilitée numérique. <br>
     c'est dans ce but que nous organisons tout les ans une conférence sur l'accessibilitée qui ce déroulera cette année le 05 avril 2025 au Palais des Congrès à Paris de 9h à 17h. Nous y ferons aussi des ateliers et rencontres sur le thème de l'accessibilité numérique.  </p>
-
-    <form action="inscription.php" method="post">
-        <label for="nom">Nom :</label>
+    <h2>Inscrivez-vous à notre événement</h2>
+    <form id="form" action="inscription.php" method="post">
+        <label for="nom">Nom</label>
         <input type="text" id="nom" name="nom" required>
         <br>
-        <label for="prenom">Prénom :</label>
+        <label for="prenom">Prénom</label>
         <input type="text" id="prenom" name="prenom" required>
         <br>
-        <label for="email">Email :</label>
+        <label for="email">Email</label>
         <input type="email" id="email" name="email" required>
         <br>
         <input type="submit" value="S'inscrire">
-        </form>
+    </form>
+
+    <footer>
+        <p>Association AccessiWeb 2025 - 25 rue de la Paix - 75000 Paris</p>
+        <p>Nous</p>
+        <p>Tout droit réservé - 2025</p> 
+    </footer>
 
 </body>
 </html>
