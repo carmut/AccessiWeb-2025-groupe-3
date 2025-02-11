@@ -38,6 +38,10 @@ nav a {
     align-items: center;
     justify-content: center;
     width: max-content;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
 }
 
 input {
@@ -47,6 +51,11 @@ input {
     border-radius: 5px;
     width: 300px;
     box-sizing: border-box;
+}
+
+#check {
+    width: 13px;
+    height: 13px;
 }
 
 h1{
